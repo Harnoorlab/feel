@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "816116850202",
+    "firebase_url": "https://feelhut-d1896.firebaseio.com",
+    "project_id": "feelhut-d1896",
+    "storage_bucket": "feelhut-d1896.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816116850202:android:19b4fc6a2928e6ca73bba3",
+        "android_client_info": {
+          "package_name": "com.example.feelhut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816116850202-8fqlf59ecaqn0psa8tsc86r5rel7ds87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsKBq4DxA5dwTnLv0TA1YoERY8sO_-PtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816116850202-8fqlf59ecaqn0psa8tsc86r5rel7ds87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

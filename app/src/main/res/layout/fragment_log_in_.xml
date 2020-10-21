@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginsignupfragment.LogIn_Fragment"
+    android:background="@color/white">
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:src="@mipmap/feelhut_icon"
+        android:id="@+id/feelhuticon">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/Logintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="LogIn"
+        android:textSize="55sp"
+        android:layout_marginTop="150dp"/>
+
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="49dp"
+             android:background="@drawable/edittext_background"
+             android:layout_below="@id/Logintext"
+             android:hint="Email Address"
+             android:id="@+id/emailtext"
+             android:padding="10dp"
+             android:layout_marginTop="10dp"
+             android:maxLines="1"
+             android:inputType="textEmailAddress"/>
+
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="49dp"
+             android:hint="Password(at least 8 characters)"
+             android:background="@drawable/edittext_background"
+             android:layout_below="@id/emailtext"
+             android:id="@+id/passwordtext"
+             android:padding="10dp"
+             android:maxLines="1"
+             android:inputType="textPassword"
+             android:layout_marginTop="10dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:text="Forget Password?"
+             android:textSize="15sp"
+             android:textColor="@color/orange"
+             android:layout_below="@id/passwordtext"
+             android:id="@+id/forgettext"
+             android:layout_marginTop="10dp"/>
+
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="LogIn"
+             android:background="@drawable/button_background"
+             android:textColor="@color/white"
+             android:textSize="35dp"
+             android:id="@+id/loginbutton"
+             android:textAllCaps="false"
+             android:layout_below="@id/forgettext"
+             android:layout_marginTop="10dp"/>
+
+
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Don't Have Account? SignUP Here"
+         android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true"
+         android:textSize="22sp"
+         android:id="@+id/donthaveaccount"
+         android:textColor="@color/orange"
+        />
+</RelativeLayout>
+
+
+</FrameLayout>

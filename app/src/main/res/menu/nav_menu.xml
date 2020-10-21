@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item android:title="Share :)"
+    android:icon="@drawable/ic_action_share">
+</item>
+    <item android:title="Rate Us"
+        android:icon="@drawable/ic_action_rate">
+    </item>
+    <item android:title="Feedback"
+        android:icon="@drawable/ic_action_feedback">
+    </item>
+    <item android:title="Contact Us"
+        android:icon="@drawable/ic_action_contactus">
+    </item>
+</menu>
